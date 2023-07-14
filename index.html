@@ -1,15 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href=img/machine-repair.svg type="image/x-icon">
-        <title>IT career support</title>
-    </head>
-    <body>
-        <header></header>
-        <main></main>
-        <footer></footer>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=img/machine-repair.svg type="image/x-icon">
+    <title>IT career support</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html"><img class="header__nav-logo" width="140" src="img/header-logo.png"
+                    alt="JobHub IT Career support logo"></a>
+            <ul class="header__nav-links">
+                <li class="header__nav-item">
+                    <a href="#services" class="header__nav-link">Services</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#about-us" class="header__nav-link">About Us</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#pricing" class="header__nav-link">Pricing</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#contacts" class="header__nav-link">Contacts</a>
+                </li>
+            </ul>
+            <div class="header__nav-social">
+                <a href="https://facebook.com">
+                    <svg width="26"
+                        class="si630882648829c3000d6704ac419ad53c367b4c36960a488e746a97561661502084826 svgIcon_1J7 filled_Qbi"
+                        viewBox="0 0 32 32">
+                        <path class="outer_bDW"
+                            d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+                        </path>
+                        <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy">
+                        </path>
+                        <path class="logo_2gS"
+                            d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                            style="color:#fff;fill:#fff"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com">
+                    <svg width="26"
+                        class="si630882648829c3000d6704ac419ad53c367b4c36960a488e746a97561661502084826 svgIcon_1J7 filled_Qbi"
+                        viewBox="0 0 32 32">
+                        <path class="outer_bDW"
+                            d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M9.97232285,11.5995823 C11.0610099,11.5995823 11.9435914,10.7947111 11.9435914,9.80075848 C11.9435914,8.8059265 11.0610099,8 9.97232285,8 C8.88258153,8 8,8.8059265 8,9.80075848 C8,10.7947111 8.88258153,11.5995823 9.97232285,11.5995823 Z M8.4518207,23.1711013 L11.9888237,23.1711013 L11.9888237,12.9700277 L8.4518207,12.9700277 L8.4518207,23.1711013 Z M16.9530531,17.4974678 C16.9530531,16.3276256 17.5065334,15.1836392 18.8299664,15.1836392 C20.1533994,15.1836392 20.4788107,16.3276256 20.4788107,17.4695014 L20.4788107,23.0408069 L24,23.0408069 L24,17.2417242 C24,13.2127953 21.6184531,12.518207 20.1533994,12.518207 C18.6895756,12.518207 17.8821971,13.0133365 16.9530531,14.2130799 L16.9530531,12.8397333 L13.4218484,12.8397333 L13.4218484,23.0408069 L16.9530531,23.0408069 L16.9530531,17.4974678 Z">
+                        </path>
+                        <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy">
+                        </path>
+                        <path class="logo_2gS"
+                            d="M9.97232285,11.5995823 C8.88258153,11.5995823 8,10.7947111 8,9.80075848 C8,8.8059265 8.88258153,8 9.97232285,8 C11.0610099,8 11.9435914,8.8059265 11.9435914,9.80075848 C11.9435914,10.7947111 11.0610099,11.5995823 9.97232285,11.5995823 Z M8.4518207,23.1711013 L8.4518207,12.9700277 L11.9888237,12.9700277 L11.9888237,23.1711013 L8.4518207,23.1711013 Z M16.9530531,17.4974678 L16.9530531,23.0408069 L13.4218484,23.0408069 L13.4218484,12.8397333 L16.9530531,12.8397333 L16.9530531,14.2130799 C17.8821971,13.0133365 18.6895756,12.518207 20.1533994,12.518207 C21.6184531,12.518207 24,13.2127953 24,17.2417242 L24,23.0408069 L20.4788107,23.0408069 L20.4788107,17.4695014 C20.4788107,16.3276256 20.1533994,15.1836392 18.8299664,15.1836392 C17.5065334,15.1836392 16.9530531,16.3276256 16.9530531,17.4974678 Z"
+                            style="color:#fff;fill:#fff"></path>
+                    </svg>
+                </a>
+                <a href="https://telegram.org">
+                    <svg width="26"
+                        class="si630882648829c3000d6704ac419ad53c367b4c36960a488e746a97561661502084826 svgIcon_1J7 filled_Qbi"
+                        viewBox="0 0 32 32">
+                        <path class="outer_bDW"
+                            d="M20.5387847,12.2184235 L12.0544503,17.5151408 L13.4519617,22.1244767 C13.6235859,22.5780549 13.5377738,22.761938 14.0158699,22.761938 L16.67693,19.6368497 L20.1943415,22.231304 C20.8685794,22.5990702 21.3589343,22.4151871 21.5305585,21.6061016 L23.9455564,10.2298682 C24.1907338,9.23689951 23.5655313,8.79558011 22.9158111,9.08979304 L8.74455481,14.55725 C7.77610391,14.9495339 7.78836278,15.4889243 8.5729306,15.7218429 L12.2138156,16.861918 L20.6356608,11.5538264 C21.0279448,11.3086489 21.395711,11.4434965 21.101498,11.7131917 L20.5387847,12.2184235 Z M1.77635684e-15,7.10542736e-15 L32,7.10542736e-15 L32,32 L1.77635684e-15,32 L1.77635684e-15,7.10542736e-15 Z">
+                        </path>
+                        <path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy">
+                        </path>
+                        <path class="logo_2gS"
+                            d="M20.5387847,12.2184235 L21.101498,11.7131917 C21.395711,11.4434965 21.0279448,11.3086489 20.6356608,11.5538264 L12.2138156,16.861918 L8.5729306,15.7218429 C7.78836278,15.4889243 7.77610391,14.9495339 8.74455481,14.55725 L22.9158111,9.08979304 C23.5655313,8.79558011 24.1907338,9.23689951 23.9455564,10.2298682 L21.5305585,21.6061016 C21.3589343,22.4151871 20.8685794,22.5990702 20.1943415,22.231304 L16.67693,19.6368497 L14.0158699,22.761938 C13.5377738,22.761938 13.6235859,22.5780549 13.4519617,22.1244767 L12.0544503,17.5151408 L20.5387847,12.2184235 Z"
+                            style="color:#fff;fill:#fff"></path>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+        <div class="header__banner">
+            <h1 class="header__banner-title">Your IT career professional support</h1>
+            <p class="header__banner-subtitle">We will help you to start or recover your IT career. It is better way and
+                time to act</p>
+            <a href="#quote-form">Request a quote</a>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
 </html>
